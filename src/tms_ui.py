@@ -66,7 +66,7 @@ class TmsUi(QtWidgets.QMainWindow):
         super().__init__(*args, **kwargs)
 
         self.app = app
-        uic.loadUi("./src/tmsExplorer.ui", self)
+        uic.loadUi("./src/tms_explorer.ui", self)
         self.setWindowTitle("TmsExplorer")
 
         pixmap = QtGui.QPixmap(100, 100)
