@@ -1,9 +1,8 @@
 from __future__ import annotations
-from enum import Enum
-
-import numpy as np
 import scipy
+import numpy as np
 
+from enum import Enum
 from PyQt6.QtWidgets import QLabel
 from datetime import datetime
 
