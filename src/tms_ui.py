@@ -292,23 +292,23 @@ class TmsPatientExplorer(TmsUiComponent):
             "lici_stop": 0.3,
             "regression": "Cubic",
         }
-        file = open("./config", "w")
+        file = open("./config.cf", "w")
         json.dump(default, file)
         file.close()
 
     def load_config(self):
         self.disconnect_callbacks_sliders()
         self.regression_model.currentTextChanged.disconnect(self.regression_selection)
-        if not os.path.isfile("./config"):
+        if not os.path.isfile("./config.cf"):
             self.default_config()
 
         try:
-            file = open("./config")
+            file = open("./config.cf")
             config_file = json.load(file)
             file.close()
         except:
             self.default_config()
-            file = open("./config")
+            file = open("./config.cf")
             config_file = json.load(file)
             file.close()
 
@@ -338,7 +338,7 @@ class TmsPatientExplorer(TmsUiComponent):
         config_file["lici_stop"] = self.lici_end.value()
         config_file["regression"] = self.regression_model.currentText()
 
-        file = open("./config", "w")
+        file = open("./config.cf", "w")
         json.dump(config_file, file)
         file.close()
         self.load_config()
