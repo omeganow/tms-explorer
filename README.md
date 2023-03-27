@@ -11,6 +11,8 @@ naming_scheme: xxx
 
 How to Export: xxx
 
+Open Folder and Browse Patients.
+
 ![Screenshot Overview](/screenshot_overview.png)
 
 

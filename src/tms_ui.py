@@ -250,7 +250,7 @@ class TmsPatientExplorer(TmsUiComponent):
             if os.path.isdir(f"{self.path_to_folder}/{folder}"):
                 if folder.startswith("F0"):
                     folder_list.append(folder)
-        self.patient_list.addItems(folder_list)
+        self.patient_list.addItems(sorted(folder_list))
 
         if temp_patient_list == [
             self.patient_list.item(x).text() for x in range(self.patient_list.count())
