@@ -13,4 +13,3 @@ else
     python3 -u src/tms_app.py
 fi
 deactivate
-
