@@ -12,8 +12,12 @@ TMS Explorer was developed to assist with the data preprocessing of transcranial
 5. Filename > structure: F00x_timePoint_measurement; e.g. F001_AC_LICI
 6. Time points: BA (baseline); PM (post meditation training); AC (acute); LT (long term)
 7. Click "save"
-8. Make sure "All frames" under Frames are selected ![Screenshot Signal 1](/screenshot_signal_export_1.png)
-9. Check both boxes ![Screenshot Signal 2](/screenshot_signal_export_2.png)
+8. Make sure "All frames" under Frames are selected
+ 
+    ![Screenshot Signal 1](/screenshot_signal_export_1.png)
+1.  Check both boxes
+    
+    ![Screenshot Signal 2](/screenshot_signal_export_2.png)
 
 ## Import and work with .mat files in TMS Explorer
 
