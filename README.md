@@ -15,16 +15,32 @@ TMS Explorer was developed to assist with the data preprocessing of transcranial
 8. Make sure "All frames" under Frames are selected
  
     ![Screenshot Signal 1](/screenshot_signal_export_1.png)
-1.  Check both boxes
+10.  Check both boxes
     
     ![Screenshot Signal 2](/screenshot_signal_export_2.png)
 
+11. The files have to be put into a folder structure RootFolder -> F00X -> F00X_AC_LICI.mat
+
 ## Import and work with .mat files in TMS Explorer
 
-1. Open folder and browse for patients data ![Screenshot Overview](/screenshot_overview.png)
-2. All frames which need to be inspected is marked as yellow: those are the ones with noisy baselines (>0.05 mV) and those without TMS pulses ![Screenshot Inspector](/screenshot_inspector.png)
-3. After exclusion, the frames will be marked red.
-4. Going back to the overview, all mean values has been adjusted to the current frames which hasn't been excluded. 
+UI overview with important elements marked
+
+   ![Screenshot Overview](/screenshot_overview.png)
+
+
+1. Open the root folder where you have exported the data  by clicking "browse". Wait a few seconds for the data to be imported.
+
+2. The Overview will be automatically updated with the the selected patient. Use the "Patientlist" to select a new patient.
+
+3. To inspect the frames use the "Tab Navigator" and select inspector. Here all frames which need to be inspected are marked as yellow: those are the ones with noisy baselines (>0.05 mV) and those without TMS pulses 
+ 
+    ![Screenshot Inspector](/screenshot_inspector.png)
+   
+5. After exclusion, the frames will be marked red. The selection which frames are rejected are saved in a hidden file within the folder "F00x/.rejected"
+
+6. Going back to the overview, all mean values have been adjusted to the current frames which haven't been excluded.
+   
+7. When done inspecting the data of all patients and choosing the most suitable regression model for each recruitment curve. The data of all patients can be exported using one of the "Export Options" 
 
 ## Installation
 >Make sure you have atleast Python 3.9 with virtualenv installed on your system. The requirements and virtual environment is set up automatically when running tms_explorer.sh/tms_explorer.bat
