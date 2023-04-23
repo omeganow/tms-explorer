@@ -21,10 +21,10 @@ More information can be found here:
 7. Click "save"
 8. Make sure "All frames" under Frames are selected
  
-    ![Screenshot Signal 1](/screenshot_signal_export_1.png)
+    ![Screenshot Signal 1](/img/screenshot_signal_export_1.png)
 9.  Check both boxes
     
-    ![Screenshot Signal 2](/screenshot_signal_export_2.png)
+    ![Screenshot Signal 2](/img/screenshot_signal_export_2.png)
 
 10. The files have to be put into a folder structure RootFolder -> F00X -> F00X_AC_LICI.mat
 
@@ -32,7 +32,7 @@ More information can be found here:
 
 UI overview with important elements marked
 
-   ![Screenshot Overview](/screenshot_overview.png)
+   ![Screenshot Overview](/img/screenshot_overview.png)
 
 
 1. Open the root folder where you have exported the data  by clicking "browse". Wait a few seconds for the data to be imported.
@@ -41,7 +41,7 @@ UI overview with important elements marked
 
 3. To inspect the frames use the "Tab Navigator" and select inspector. Here all frames which need to be inspected are marked as yellow: those are the ones with noisy baselines (>0.05 mV) and those without TMS pulses. 
  
-    ![Screenshot Inspector](/screenshot_inspector.png)
+    ![Screenshot Inspector](/img/screenshot_inspector.png)
    
 4. After exclusion, the frames will be marked red. The selection which frames are rejected are saved in a hidden file within the folder "F00X/.rejected".
 
