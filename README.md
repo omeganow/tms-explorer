@@ -50,9 +50,10 @@ UI overview with important elements marked
 6. When done inspecting the data of all patients and choosing the most suitable regression model for each recruitment curve. The data of all patients can be exported using one of the "Export Options".
 
 ## Installation
->Make sure you have atleast Python 3.9 and virtualenv installed on your system. The requirements and virtual environment is set up automatically when running tms_explorer.sh/tms_explorer.bat. If you are new to python or not used to operate the terminal see also these links:
+>Make sure you have atleast Python 3.9 and virtualenv installed ("pip install virtualenv") on your system. The requirements and virtual environment is set up automatically when running tms_explorer.sh/tms_explorer.bat. If you are new to python or not used to operate the terminal see also these links:
 
 [Python PIP](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+
 [Terminal Introduction](https://cs.colby.edu/maxwell/courses/tutorials/terminal/)
 
 
@@ -61,7 +62,7 @@ UI overview with important elements marked
 
    1. Clone the github repository or download and unzip
    2. Open a terminal and change directory (cd) into the repository
-   3. Based on your Operating system run the commands below
+   3. Based on your operating system run the commands below
 
 ### MacOS and Linux
 make the tms_explorer.sh file executable and execute it
