@@ -1,8 +1,15 @@
 # TMS Explorer
 
-TMS Explorer was developed to assist with the preprocessing of transcranial magnetic stimulation (TMS) data as part of the study "Transcranial direct current stimulation (tDCS) and mindfulness meditation in fibromyalgia" in the "Non-invasive brain stimulation lab" (NBS) at the University Medicine Göttingen (UMG) under Prof. Dr. rer. nat. Andrea Antal. PhD student Perianen Ramasawmy conducted the study in 2022/2023 and the software was developed based on his requirements.
+TMS Explorer was developed to assist with the preprocessing of transcranial magnetic stimulation (TMS) data as part of the study "Transcranial direct current stimulation (tDCS) and mindfulness meditation in fibromyalgia" in the "Non-invasive brain stimulation lab" (NBS) at the University Medicine Göttingen (UMG) under Prof. Dr. rer. nat. Andrea Antal. PhD student Perianen Ramasawmy conducted the study in 2022/2023 and the software was developed based on his requirements. The software was programmed by Oscar Moschner and Thuy Tien Mai.
+
+
+#
+More information can be found here:
 
 [DRKS Study Information](https://drks.de/search/de/trial/DRKS00029024)
+
+[Klinik für Neurologie UMG](https://neurologie.umg.eu)
+
 
 ## Data preparation
 1. Open .cfs file in software Signal 1.4  
@@ -43,7 +50,18 @@ UI overview with important elements marked
 6. When done inspecting the data of all patients and choosing the most suitable regression model for each recruitment curve. The data of all patients can be exported using one of the "Export Options".
 
 ## Installation
->Make sure you have atleast Python 3.9 with virtualenv installed on your system. The requirements and virtual environment is set up automatically when running tms_explorer.sh/tms_explorer.bat
+>Make sure you have atleast Python 3.9 and virtualenv installed on your system. The requirements and virtual environment is set up automatically when running tms_explorer.sh/tms_explorer.bat. If you are new to python or not used to operate the terminal see also these links:
+
+[Python PIP](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+[Terminal Introduction](https://cs.colby.edu/maxwell/courses/tutorials/terminal/)
+
+
+
+### General
+
+   1. Clone the github repository or download and unzip
+   2. Open a terminal and change directory (cd) into the repository
+   3. Based on your Operating system run the commands below
 
 ### MacOS and Linux
 make the tms_explorer.sh file executable and execute it
@@ -57,6 +75,4 @@ run the tms_explorer.bat file either double clicking or running in terminal
     ./tms_explorer.bat
 
 ## Binaries
-Additional you can find precompiled binaries for all platforms are distributed on github as well. 
-#Todo: Add Link
-
+In the future you can find precompiled binaries for all platforms on github. 
